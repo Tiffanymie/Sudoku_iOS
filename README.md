@@ -1,3 +1,3 @@
-# Sudoku_IOS
+# Sudoku_iOS
 /*lalalalalalala*/
 /*hhhhhhh*/
