@@ -14,6 +14,7 @@
 		EFA7B89423F3898500AA3C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA7B89223F3898500AA3C91 /* LaunchScreen.storyboard */; };
 		EFA7B89F23F3898500AA3C91 /* Sudoku_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7B89E23F3898500AA3C91 /* Sudoku_iOSTests.swift */; };
 		EFA7B8AA23F3898500AA3C91 /* Sudoku_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7B8A923F3898500AA3C91 /* Sudoku_iOSUITests.swift */; };
+		EFA7B8BA23F895AE00AA3C91 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7B8B923F895AE00AA3C91 /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EFA7B8A523F3898500AA3C91 /* Sudoku_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sudoku_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA7B8A923F3898500AA3C91 /* Sudoku_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoku_iOSUITests.swift; sourceTree = "<group>"; };
 		EFA7B8AB23F3898500AA3C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA7B8B923F895AE00AA3C91 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				EFA7B88923F3898400AA3C91 /* AppDelegate.swift */,
 				EFA7B88B23F3898400AA3C91 /* ViewController.swift */,
+				EFA7B8B923F895AE00AA3C91 /* SquareView.swift */,
 				EFA7B88D23F3898400AA3C91 /* Main.storyboard */,
 				EFA7B89023F3898500AA3C91 /* Assets.xcassets */,
 				EFA7B89223F3898500AA3C91 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA7B8BA23F895AE00AA3C91 /* SquareView.swift in Sources */,
 				EFA7B88C23F3898400AA3C91 /* ViewController.swift in Sources */,
 				EFA7B88A23F3898400AA3C91 /* AppDelegate.swift in Sources */,
 			);
